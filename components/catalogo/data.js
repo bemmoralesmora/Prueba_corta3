@@ -1,4 +1,3 @@
-// data.js
 let dataProductos = [
     { nombre: "iPhone 13", precio: 999.99, imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTdI0opFY6AO1iCYUZwUfqu2WHpI1RAgAQqg&s" },
     { nombre: "Samsung Galaxy S21", precio: 899.99, imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHw0ygrmvwj0ceMiNnOeHcftBcLtSCG4NWHA&s" },

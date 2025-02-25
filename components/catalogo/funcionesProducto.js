@@ -14,3 +14,13 @@ function eliminarProducto(contenedor) {
 }
 
 export { eliminarProducto };
+
+function agregarCarrito() {
+    let contador = document.querySelector(".numero-header");
+
+    let valorActual = parseInt(contador.textContent);
+
+    contador.textContent = valorActual + 1;
+}
+
+export {agregarCarrito};

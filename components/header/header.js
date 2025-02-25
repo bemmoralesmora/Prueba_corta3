@@ -1,4 +1,4 @@
-function mostrarMenu(){
+function mostrarMenu() {
     let contenedor = document.createElement('div');
     contenedor.className = "contenedor-header";
 
@@ -20,11 +20,10 @@ function mostrarMenu(){
 
     let numero = document.createElement('div');
     numero.className = "numero-header";
-    numero.textContent = "5";
+    numero.textContent = "0"; 
     cont.appendChild(numero);
 
     return contenedor;
-
 }
 
-export {mostrarMenu};
+export { mostrarMenu };
