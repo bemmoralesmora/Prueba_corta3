@@ -7,6 +7,11 @@
     justify-content: space-between;
     align-items: center;  
     padding: 1rem;
+
+    background-image: url("https://c.wallhere.com/photos/be/4c/keyboards_mechanical_keyboard_technology_minimalism_simple_background_artwork-2271338.jpg!d");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 
@@ -34,18 +39,22 @@
 .texto-header{
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
+    color: white;
 }
 
 .numero-header{
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+
 }

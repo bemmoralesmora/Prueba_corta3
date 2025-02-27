@@ -4,10 +4,23 @@
     border-radius: 1rem;  
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 2rem;
+    gap: 5rem;
     padding: 1rem;
     margin: auto;
+
+    background-image: url("https://c.wallhere.com/photos/be/4c/keyboards_mechanical_keyboard_technology_minimalism_simple_background_artwork-2271338.jpg!d");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+@media (max-width: 500px) {
+    .catalogo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
 
 .cont-producto{
     width: 20rem;
@@ -20,6 +33,10 @@
     align-items: center;
     padding: 10px;
     gap: 1rem;
+}
+
+.cont-producto h1{
+    color: white;
 }
 
 .img-cont{
@@ -47,10 +64,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .precio{
     font-size: 15px;
+    color: white;
 }
 
 .eliminar{

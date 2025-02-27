@@ -5,7 +5,7 @@ function mostrarMenu(){
     let img = document.createElement('div');
     img.className = "img-header";
     img.innerHTML = `
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1024px-LEGO_logo.svg.png" alt="">
+    <img src="https://png.pngtree.com/png-clipart/20231005/original/pngtree-minimalist-lion-vector-logo-png-image_13279470.png" alt="">
     `;
     contenedor.appendChild(img);
 
